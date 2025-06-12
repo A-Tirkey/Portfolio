@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=Kalam&family=Merriweather&family=Open+Sans&family=Playfair+Display:wght@400;700&family=Poppins&family=Russo+One&family=Titillium+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo"><span> My Portfolio</span></a>
+
+      <!-- icon -->
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello , It's Me</h3>
+        <h1><span>Abhijeet Tirkey</span></h1>
+        <h3>And I'm a <span class="multiple-text">Full Stack Developer</span></h3>
+        <p>
+          
+        </p>
+        <p>
+          
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/abhijeet-tirkey-75781330a/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/A-Tirkey"
+            ><i class="bx bxl-github"></i></a>
+
+           <a href="https://www.instagram.com/_its.abhijeet_/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1RQg9Y7lh4QyFwNnBmBW_z0kfyYN8n9le/view?usp=sharing" class="btn btn1" id="download" download>Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/mine.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/Abhijeet_Tirkey.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Developer</h3>
+        <p class="visible-content">
+          I have completed my B.Tech in Electronics and Communication Engineering from Netaji Subhas University of Technology, Delhi (NSUT). I am an aspiring Software Engineer with hands-on experience in building full-stack applications using the MERN stack. I have solved 500+ DSA problems on platforms like LeetCode and GFG. I'm passionate about creating scalable web solutions and writing clean, efficient backend code.
+        </p>
+        <div class="invisible-content">
+          <p>
+            I studied at Netaji Subhas University of Technology, Delhi.I am an Aspiring Software Engineer with hands-on experience building full-stack applications using the MERN stack.Solved 500+ DSA problems on platforms like LeetCode and GFG. Passionate about creating scalable web solutions and writing clean, efficient backend code.
+          </p>
+        </div>
+        <button class="btn more" id="more">Read more</button>
+      </div>
+    </section>
+
+    <!-- skills section -->
+<section class="skills" id="skills">
+  <h2 class="heading">My <span>Skills</span></h2>
+  <div class="skills-container">
+    <div class="skills-box">
+      <i class="bx bxl-c-plus-plus"></i>
+      <h3>C/C++</h3>
+      <p>Proficient in data structures and algorithms with C/C++. Solved 500+ problems on coding platforms.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bxl-java"></i>
+      <h3>Java</h3>
+      <p>Experience with Java programming, OOP concepts, and building applications.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bxl-html5"></i>
+      <i class="bx bxl-css3"></i>
+      <h3>HTML/CSS</h3>
+      <p>Skilled in creating responsive and visually appealing web interfaces with modern CSS techniques.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bxl-javascript"></i>
+      <h3>JavaScript</h3>
+      <p>Strong understanding of core JavaScript concepts, ES6+ features, and DOM manipulation.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bxl-react"></i>
+      <h3>React.js</h3>
+      <p>Building interactive UIs with React, hooks, context API, and component-based architecture.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bxl-nodejs"></i>
+      <h3>Node.js</h3>
+      <p>Experience in building server-side applications and APIs using Node.js runtime environment.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bx-code-alt"></i>
+      <h3>Express.js</h3>
+      <p>Creating robust backend services and RESTful APIs with Express framework.</p>
+    </div>
+    
+    <div class="skills-box">
+      <i class="bx bx-data"></i>
+      <h3>MongoDB</h3>
+      <p>Working with NoSQL databases, designing schemas, and performing CRUD operations.</p>
+    </div>
+  </div>
+</section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/e-commerce.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>E-Commerce Website</h4>
+            <p>
+              Developed a full-stack e-commerce platform that enabled users to browse, manage carts,and complete transactions.
+            </p>
+            <a href="https://e-commerce-ukt5.onrender.com"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/connectly.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Connectly</h4>
+            <p> Engineered a scalable chat platform with real-time messaging.Achieved instant message delivery (sub-second latency) using Socket.io and WebSockets.</p>
+            <a href="https://chat-app-yddz.onrender.com"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/movieGalaxy.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>MovieGalaxy</h4>
+            <p> Created a dynamic movie search site with access to 500,000+ movies via TMDB API.Enabled real-time search, returning relevant movie results.</p>
+            <a href="https://main--galaxymovie.netlify.app/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+       
+        <div class="portfolio-box">
+          <img src="images/portfolio.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio Website</h4>
+            <p>This website is my portfolio website</p>
+            <a href="#home"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading"><span>Contact Details</span></h2>
+
+     <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="7cb48014-e81d-48ae-845a-2dbad57021da">
+
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email Address"
+            required
+          />l̥
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            name="Phone number"
+            placeholder="Mobile Number"
+          />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="btn btn3" >Send Message</button>
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>CopyRights &copy; 2025 by Abhijeet Tirkey |All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        <p>Press arrow to return to home page</p>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
